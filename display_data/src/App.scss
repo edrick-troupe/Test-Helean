@@ -1,0 +1,21 @@
+$color-black: #000;
+$color-white: #fff;
+$color-blue: #386dff;
+$colord-mediumblue: #dedeff;
+$color-green: #417213;
+$color-shadow: rgba(144,173,255,0.15);
+
+$font-primary: 'Geomanist';
+
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@import './components/Modals/Shop/Shop.scss';
+@import './components/Modals/Shop/Information/ShopInformation.scss';
